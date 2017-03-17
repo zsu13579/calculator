@@ -1,0 +1,64 @@
+body{
+  background-color: grey;
+}
+ul{
+  float: left;
+  padding:0;
+  text-align: center;
+  vertical-align: middle;
+}
+li{
+  list-style-type: none;
+}
+.main-container{
+  width: 300px;
+  height: 420px;
+  background-color: #DFD8D0;
+  margin: 80px auto;
+  border-radius: 10px;
+}
+
+.title{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.monitor{
+  width: 240px;
+  height: 50px;
+  background-color: #C3C2AB;
+  margin: 0 auto;
+  line-height: 50px;
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 22px;
+}
+.key{
+  margin-top: 5px;
+  height: 50px;
+}
+.leftkey{
+  margin-left:18px; 
+}
+
+.key span{
+  margin: 0 8px;
+  width: 50px;
+  line-height: 40px;
+  height: 40px;
+  background-color: red;
+  float: left;
+  vertical-align: middle;
+  font-size: 22px;
+  color: white;
+}
+
+#zero{
+  width: 117px;
+}
+
+#eq span{
+  line-height: 96px;
+  height: 96px;
+}
